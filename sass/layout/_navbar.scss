@@ -1,10 +1,12 @@
 .navbar{
     height: 15vh;
-    @include flexBetween;
-    box-shadow: 0 1px 14px -8px rgba($color-black,0.75);
     width: 100%;
-    color: $color-blue-extra;
     padding: 1rem 5rem;
+    // @include flexBetween;
+    // box-shadow: 0 1px 14px -8px rgba($color-black,0.75);
+    // width: 100%;
+    // color: $color-blue-extra;
+    // padding: 1rem 5rem;
     
     @include respond(tab-port){
         height: 20vh;
@@ -13,7 +15,7 @@
         padding: 2rem 2rem;
         height: 12vh;
     }
-    &__logo--box{
+    &__logobox{
         width: 5%;
         height: auto;
         @include respond(tab-land){
@@ -29,22 +31,22 @@
     &__logo{
         @include imageRes;
     }
-    &__mode--box{
-        padding: 2rem 0 0 0;
-        @include respond(tab-land){
-            padding-top: 3rem;
-        }
-    }
-    &__mode--link{
-        text-decoration: none;
-        color: inherit;
-        font-size: 1.7rem;
-        font-weight: 700;
-        @include respond(tab-land){
-            font-size: 2rem;
-        }
-    }
-    &__bg{
-        background-color: $color-white;
-    }
+    // &__mode--box{
+    //     padding: 2rem 0 0 0;
+    //     @include respond(tab-land){
+    //         padding-top: 3rem;
+    //     }
+    // }
+    // &__mode--link{
+    //     text-decoration: none;
+    //     color: inherit;
+    //     font-size: 1.7rem;
+    //     font-weight: 700;
+    //     @include respond(tab-land){
+    //         font-size: 2rem;
+    //     }
+    // }
+    // &__bg{
+    //     background-color: $color-white;
+    // }
 }
