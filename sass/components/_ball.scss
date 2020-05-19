@@ -1,0 +1,54 @@
+.ball{
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+    opacity: .8;
+    position: absolute;
+    &1{
+        background-color: $color-pink;
+        top: -1rem;
+        left: -2rem;
+        z-index: 4;
+    }
+    &2{
+        background-color: $color-black;
+        top: -1rem;
+        left: 3rem;
+        z-index: 3;
+    }
+    &3{
+        background-color: $color-gray-dark;
+        top: -1rem;
+        left: 8rem;
+        z-index: 2;
+    }
+    &4{
+        background-color: $color-gray-light;
+        top: -1rem;
+        left: 13rem;
+    }
+    &5{
+        background-color: $color-pink;
+        bottom: -1rem;
+        right: -2rem;
+        z-index: 4;
+    }
+    &6{
+        background-color: $color-black;
+        bottom: -1rem;
+        right: 3rem;
+        z-index: 3;
+    }
+    &7{
+        background-color: $color-gray-dark;
+        bottom: -1rem;
+        right: 8rem;
+        z-index: 2;
+    }
+    &8{
+        background-color: $color-gray-light;
+        bottom: -1rem;
+        right: 13rem;
+    }
+
+}

@@ -1,8 +1,9 @@
 .btn{
     text-decoration: none;
     display: inline-block;
-    box-shadow: .3rem .8rem 1.4rem -.8rem rgba($color-gray-dark, .7);
+    box-shadow: .3rem .8rem 1.4rem -.8rem rgba($color-black, .7);
     padding: 1rem 2.5rem;
+    margin-top: 2rem;
     font-size: 1.5rem;
     border: none;
     border-radius: .9rem;
@@ -15,12 +16,12 @@
     }
     &:hover{
         transform: translateY(-.3rem);
-        box-shadow: .4rem 1rem 1.4rem -.8rem rgba($color-gray-dark, .7);
+        box-shadow: .4rem 1rem 1.4rem -.8rem rgba($color-black, .7);
     }
     &:active,
     &:focus{
         outline: none;
-        box-shadow: .2rem .5rem 1.4rem -.8rem rgba($color-gray-dark, .7);
+        box-shadow: .2rem .5rem 1.4rem -.8rem rgba($color-black, .7);
         transform: translateY(0);
     }
 }

@@ -4,7 +4,7 @@
     justify-content: space-evenly;
     height: 85vh;
     position: relative;
-    background-color: hotpink;
+    overflow: hidden;
 
     &--imagebox{
         width: 45%;
@@ -15,9 +15,22 @@
     &--infobox{
         width: 45%;
         text-align: center;
-        padding-top: 10rem;
+        padding-top: 15rem;
+        position: relative;
+    }
+    &--socials{
+        position: absolute;
+        bottom: 2rem;
+        // bottom: 10rem;
+        right: 0;
+        // left: 21rem;
+        // width: 20%;
+        @include flexBetween;
+        flex-direction: column;
+     
     }
 }
 .skills{
     display: block;
+    margin: 1rem 0;
 }

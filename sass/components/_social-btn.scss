@@ -1,3 +1,39 @@
-.social--links{
-    
+.social{
+
+    &__links{
+        text-decoration: none;
+        color: $color-pink;
+        display: block;
+        height: 5rem;
+        width: 5rem;
+        border-radius: 50%;
+        border: .15rem solid $color-black;
+        background-color: $color-pink;
+        position: relative;
+        box-shadow: .3rem .8rem 1.4rem -.8rem rgba($color-black, .7);
+        margin-top: 1.5rem;
+        transition: all .2s;
+        &:hover{
+            transform: translateY(-.3rem);
+            box-shadow: .4rem 1rem 1.4rem -.8rem rgba($color-black, .7);
+        }
+        &:active,
+        &:focus{
+            outline: none;
+            box-shadow: .2rem .5rem 1.4rem -.8rem rgba($color-black, .7);
+            transform: translateY(0);
+        }
+    }
+    &__icon{
+        color: $color-white;
+        padding: 2rem;
+        font-size: 2.5rem;
+        display: inline-block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+       
+    }
+   
 }
