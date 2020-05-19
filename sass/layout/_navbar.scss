@@ -2,7 +2,8 @@
     height: 15vh;
     width: 100%;
     padding: 1rem 5rem;
-    // @include flexBetween;
+    border-bottom: .2rem solid $color-black;
+    @include flexBetween;
     // box-shadow: 0 1px 14px -8px rgba($color-black,0.75);
     // width: 100%;
     // color: $color-blue-extra;
@@ -16,7 +17,7 @@
         height: 12vh;
     }
     &__logobox{
-        width: 5%;
+        width: 15%;
         height: auto;
         @include respond(tab-land){
             width: 8%;
@@ -30,6 +31,12 @@
     }
     &__logo{
         @include imageRes;
+    }
+    &__contact--p{
+        display: inline-block;
+        &:last-child{
+            margin-left: 4rem;
+        }
     }
     // &__mode--box{
     //     padding: 2rem 0 0 0;

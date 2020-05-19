@@ -1,4 +1,5 @@
 @import "./abstract/mixins";
+@import "./abstract/utility";
 @import "./abstract/variables";
 
 
@@ -6,10 +7,12 @@
 @import "./base/typography";
 
 @import "./components/buttons";
-@import "./components/country";
-@import "./components/form";
+@import "./components/social-btn";
 
 @import "./layout/header";
 @import "./layout/navbar";
+
+@import "./pages/home";
+@import "./pages/portfolio";
 
 @import "./themes/darkmode";

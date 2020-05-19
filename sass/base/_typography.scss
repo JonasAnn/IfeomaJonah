@@ -1,30 +1,15 @@
 body{
     font-family: 'Roboto Condensed', sans-serif;
-    color: $color-blue-extra;
-    background-color: $color-gray-light;
+    color: $color-black;
+    background-color: $color-white;
 }
 
-.country__heading{
-    padding: 1.5rem 0 1.5rem 2rem;
-    font-size: 2rem;
-    @include respond(phone){
-        font-size: 3rem;
-    }
+.primary__heading{
+    font-size: 4rem;
 }
-
-.country__paragraph{
-    padding-left: 2rem;
+.primary__paragraph{
     font-size: 1.5rem;
-    font-weight: 700;
-    margin-top: .5rem;
-    @include respond(phone){
-        font-size: 2rem;
-    }
-    span{
-        font-weight: 400;
-    }
+    width: 60%;
+    margin: 1.5rem auto;
 }
 
-.detail__header{
-    padding-left: 0;
-}

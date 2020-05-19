@@ -1,0 +1,23 @@
+.section__body{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    height: 85vh;
+    position: relative;
+    background-color: hotpink;
+
+    &--imagebox{
+        width: 45%;
+    }
+    &--image{
+        @include imageRes;
+    }
+    &--infobox{
+        width: 45%;
+        text-align: center;
+        padding-top: 10rem;
+    }
+}
+.skills{
+    display: block;
+}

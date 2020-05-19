@@ -1,0 +1,129 @@
+.margin-bottom-small {
+  margin-bottom: 2rem; }
+
+.margin-bottom-medium {
+  margin-bottom: 4rem; }
+
+.margin-top-small {
+  margin-top: 2rem; }
+
+.margin-top-medium {
+  margin-top: 4rem; }
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+  @media only screen and (max-width: 81.25em) {
+    html {
+      font-size: 56.25%; } }
+  @media only screen and (max-width: 56.25em) {
+    html {
+      font-size: 50%; } }
+  @media only screen and (min-width: 112.5em) {
+    html {
+      font-size: 75%; } }
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #000;
+  background-color: #fff; }
+
+.primary__heading {
+  font-size: 4rem; }
+
+.primary__paragraph {
+  font-size: 1.5rem;
+  width: 60%;
+  margin: 1.5rem auto; }
+
+.btn {
+  text-decoration: none;
+  display: inline-block;
+  box-shadow: 0.3rem 0.8rem 1.4rem -0.8rem rgba(195, 158, 160, 0.7);
+  padding: 1rem 2.5rem;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: .9rem;
+  font-weight: 700;
+  color: #fff;
+  cursor: pointer;
+  transition: all .2s; }
+  .btn:not(:last-child) {
+    margin-right: 1.5rem; }
+  .btn:hover {
+    transform: translateY(-0.3rem);
+    box-shadow: 0.4rem 1rem 1.4rem -0.8rem rgba(195, 158, 160, 0.7); }
+  .btn:active, .btn:focus {
+    outline: none;
+    box-shadow: 0.2rem 0.5rem 1.4rem -0.8rem rgba(195, 158, 160, 0.7);
+    transform: translateY(0); }
+
+.black--btn {
+  background-color: #000; }
+
+.pink--btn {
+  background-color: #FA255E; }
+
+.header {
+  width: 100%;
+  height: auto; }
+
+.navbar {
+  height: 15vh;
+  width: 100%;
+  padding: 1rem 5rem;
+  border-bottom: 0.2rem solid #000;
+  display: flex;
+  justify-content: space-between; }
+  @media only screen and (max-width: 56.25em) {
+    .navbar {
+      height: 20vh; } }
+  @media only screen and (max-width: 37.5em) {
+    .navbar {
+      padding: 2rem 2rem;
+      height: 12vh; } }
+  .navbar__logobox {
+    width: 15%;
+    height: auto; }
+    @media only screen and (max-width: 81.25em) {
+      .navbar__logobox {
+        width: 8%; } }
+    @media only screen and (max-width: 56.25em) {
+      .navbar__logobox {
+        width: 8.5%; } }
+    @media only screen and (max-width: 37.5em) {
+      .navbar__logobox {
+        width: 12%; } }
+  .navbar__logo {
+    width: 100%;
+    object-fit: cover; }
+  .navbar__contact--p {
+    display: inline-block; }
+    .navbar__contact--p:last-child {
+      margin-left: 4rem; }
+
+.section__body {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  height: 85vh;
+  position: relative;
+  background-color: hotpink; }
+  .section__body--imagebox {
+    width: 45%; }
+  .section__body--image {
+    width: 100%;
+    object-fit: cover; }
+  .section__body--infobox {
+    width: 45%;
+    text-align: center;
+    padding-top: 10rem; }
+
+.skills {
+  display: block; }
