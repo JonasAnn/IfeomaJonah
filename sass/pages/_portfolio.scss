@@ -1,6 +1,26 @@
 .section{
     &__work{
-        height: 850vh;
+        height: 85vh;
         width: 100%;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 5rem 2rem;
+        background-color: rebeccapurple;
     }
-}    
+    
+} 
+.portfolio{
+    width: 35%;
+    // height: 5%;
+    margin: auto;
+    background-color: red;
+    margin-bottom: .5rem;
+    &__image{
+        @include imageRes;
+    }
+}   
+#hide{
+    display: none;
+}
